@@ -1,0 +1,62 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Section styles */
+section {
+    padding: 50px;
+}
+
+#home {
+    background-color: #693f3f;
+    text-align: center;
+    font-size: 23px;
+    
+}
+
+#about {
+    background-color: #fff;
+}
+
+#services {
+    background-color: #f2f2f2;
+}
+
+#contact {
+    background-color: #fff;
+}
+
+/* Form styles */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
